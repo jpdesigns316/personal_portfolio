@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+   <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Lato:300,100' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/style.css">
+    
+        <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <title>Portfilio Website</title>
+    </head>
+    <body>
+      
+       <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="mtw_modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="mtw_modal">Movie Trailer Website</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/mtw.jpg" alt="movie_trailer_website">
+                    <p>This was the first project that I had completed for the Udacity Nanodegree for Full-Stack Web
+                    Developer. In this project I had to write some code in python which used info to create the 
+                    webpage. It displays some data about movies, and when you click on them it will pull up the 
+                        traler.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="math_modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="math_modal">Math Calculator Program</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/math.jpg" alt="Math Formula Calulator">
+                    <p>This was a program which was written in Java 8, and utilized the Swing library to make a GUI.
+                    This was done as part of the final project for Intro to Java II. This is a program which utilizes
+                    math formulas and solves them. Though this is a bare-bones program, in the future more formulas
+                    could be added.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="infograph_modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="infograph_modal">Movie Ticket Infograph</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/movie_infograph.svg" alt="movie_infograph">
+                    <p>This was a project that I had to do in one of my classes when I was learning about graphic design.
+                    What was required is reseaching some data and use it to make an infograph. This project was done around
+                    2012, and took some data from boxmojo.com about the top 30 movies at that time. It gave info about 
+                    the breakdown in ticket cost through the years, the top 5 movies and compared them to the top 5 with
+                    inflation added.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+       <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="title-logo image-responsive" src="images/logo.png" alt="My Logo" width="100" height="100">
+                </div>
+                <div class="col-md-6 text-uppercase text-right">
+                    <h1 class="title-super text-thin">Jonathan D. Peterson</h1>
+                    <h4 class="title-job">Graphic Designer / Developer / Programmer</h4>
+                    <a href="https://www.linkedin.com/in/jpdesigns316"><img class="social" src="images/Linkedin.svg" alt="linkdin"></a>
+                    <a href="http://www.github.com/jpdesigns316"><img  class="social" src="images/Github.svg" alt="linkdin"></a>
+                    <a href="http://www.twitter.com/jpdesigns316"><img  class="social" src="images/Twitter.svg" alt="linkdin"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                </div>
+            </div>
+                 <div class="row">
+                <div class="col-md-12">
+                    <img src="http://placekitten.com/1140/350" class="img-responsive" alt="Meow">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-muted">Featured Work</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <div class="col-md-4">
+                        <img class="box1 img-responsive" src="images/mtw.jpg" data-toggle="modal" data-target="#project1" alt="Meow">
+                        <h3 class="text-uppercase">Movie Trailer Website</h3>
+                    </div>
+                    <div class="box1 col-md-4">
+                        <img class="box1 img-responsive" src="images/math.jpg" data-toggle="modal" data-target="#project2" alt="Meow">
+                        <h3 class="text-uppercase">Math Formula Calculator</h3>
+                        <p><a href="http://www.github.com/jpdesigns316/math_calculator">www.github.com/jpdesigns316/math_calculator</a></p>
+                    </div>
+                      <div class="box1 col-md-4">
+                        <img class="box1 img-responsive" src="images/movie_infograph.svg"  data-toggle="modal" data-target="#project3" alt="movie_infograph">
+                        <h3 class="text-uppercase">Movie Ticket Infograph</h3>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-4">
+                        <img class="box1 img-responsive" src="images/ss3goku.svg" alt="digigal_art">
+                        <h3 class="text-uppercase">Digital Art</h3>
+                    </div>    
+                    <div class="col-md-4">
+                        <img class="box1 img-responsive" src="images/portfolio.jpg" alt="digigal_art">
+                        <h3 class="text-uppercase">Personal Portfolio Site</h3>
+                    </div>    
+                </div>
+           </div>
+        </div>
+    </body>
+</html>
+  
